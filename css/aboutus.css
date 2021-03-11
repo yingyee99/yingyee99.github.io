@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+    background: #E3E9E1;
+}
+
+/* ----- header ----- */
+.header-area {
+    position: relative;
+    z-index: 200;
+}
+
+.top-header-area {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify;
+}
+
+.top-header-area .contact-info {
+    position: relative;
+    z-index: 1;
+}
+
+.top-header-area .contact-info a {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 30px;
+    color: rgba(0,0,0,.3);
+    font-size: 14px;
+    border-right: 1px solid #ebebeb;
+}
+
+
+.top-header-area .follow-us {
+    position: relative;
+    z-index: 1;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.smheader {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-header-area .follow-us span {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    color: rgba (0,0,0,0.3);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.top-header-area .follow-us a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    border-left: 1px solid #ebebeb;
+}
+
+.a, a:hover, a:focus {
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color:rgba(0,0,0,.8);
+    font-weight: 600;
+}
+
+/* ----- logo ----- */
+.logo {
+    width: 450px;
+    height: 80px;
+}
+
+/* ----- navigation bar ----- */
+nav {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold; 
+    letter-spacing: 1px;
+}
+
+/* ----- jumbotron ----- */
+.jumbotrontitle {
+    font-family: Script MT;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 6px 5.5px #000000;
+}
+
+.jumbotroncontent {
+    font-family: cambria;
+    font-size: 20px;
+    text-shadow: 3px 1.5px #000000;
+}
+
+.jumbotron_subject {
+    background: url("../img/aboutusjumbotron.jpg") no-repeat center center; 
+    background-size: cover;
+    padding: 100px;
+}
+
+/* ----- content ----- */
+hr {
+    border-top: 5px double #2E4B7A;
+    width: 94%;
+    margin-top: 5px;
+}
+
+.aboutustitle {
+    font-family: Tw Cen MT;
+    font-weight: bold;
+    color: #2E4B7A;
+}
+
+.aboutuscontent p {
+    font-family: Cambria;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.aboutuscontent2 h3 {
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+    font-family: Tw Cen MT;
+}
+
+.aboutuscontent2 p {
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 2.0;
+    font-family: 'Poppins';
+}
+
+.aboutuscontent2 h3 {
+    font-weight: bold;
+}
+
+.contentbackground {
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+/* ----- contact ----- */
+.contacttitle {
+    font-family: Tw Cen MT;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2E4B7A;
+}
+
+.contact {
+    font-family: Cambria;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container p {
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+/* ------ footer ------ */
+#bottom {
+    position: relative;
+    background-color: #B5D1D8;
+    padding: 2px;
+    margin: 5px 0px 0px 0px;
+} 
+
+.copyright {
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.smfooter {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.connecttitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.partnerstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.w-50 {
+    width: 50%!important; 
+}
+
+.subjectstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.quicklinkstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+
+.bottom_content {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #3a4660;
+}

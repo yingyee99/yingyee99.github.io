@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, sans-serif;
+    background-color: #E3E9E1;
+}
+
+/* ----- header ----- */
+.header-area {
+    position: relative;
+    z-index: 200;
+}
+
+.top-header-area {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify;
+}
+
+.top-header-area .contact-info {
+    position: relative;
+    z-index: 1;
+}
+
+.top-header-area .contact-info a {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 30px;
+    color: rgba(0,0,0,.3);
+    font-size: 14px;
+    border-right: 1px solid #ebebeb;
+}
+
+
+.top-header-area .follow-us {
+    position: relative;
+    z-index: 1;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.smheader {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-header-area .follow-us span {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    color: rgba (0,0,0,0.3);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.top-header-area .follow-us a {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    border-left: 1px solid #ebebeb;
+}
+
+.a, a:hover, a:focus {
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color:rgba(0,0,0,.8);
+    font-weight: 600;
+}
+
+/* ----- logo ----- */
+.logo {
+    width: 450px;
+    height: 80px;
+}
+
+/* ----- navigation bar ----- */
+nav {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold; 
+    letter-spacing: 1px;
+}
+
+/* ----- jumbotron ----- */
+.jumbotrontitle {
+    font-family: Script MT;
+    font-weight: bold;
+    font-size: 90px;
+    text-shadow: 6px 5.5px #000000;
+}
+
+.jumbotroncontent {
+    font-family: cambria;
+    font-size: 20px;
+    text-shadow: 2px 1.5px #000000;
+}
+
+.jumbotron_subject {
+    background: url("../img/pxfuel.com2.jpg") no-repeat center center; 
+    background-size: cover;
+    padding: 100px;
+}
+
+/* ----- subject ----- */
+.subjectcontenttitle {
+    font-family: Tw Cen MT;
+    font-weight: bold;
+    color: #2E4B7A;
+}
+
+.doublehr {
+    border-top: 5px double #2E4B7A;
+    width: 94%;
+    margin-top: 5px;
+}
+
+/* ------ terms and conditions ------ */
+.fancy-collapse-panel .panel-default > .panel-heading {
+    padding: 0;
+}
+
+.fancy-collapse-panel .panel-heading a {
+    padding: 12px 35px 12px 15px;
+    display: inline-block;
+    width: 100%;
+    background-color: #3a4660;
+    color: #ed8a63;
+    position: relative;
+    text-decoration: none;
+    font-family: Tw Cen MT ;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.fancy-collapse-panel .panel-heading a:after {
+    font-family: "FontAwesome";
+    content: "\f147";
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    top: 50%;
+    line-height: 1;
+    margin-top: -10px;
+}
+
+.fancy-collapse-panel .panel-heading a.collapsed:after {
+    content: "\f196";
+}
+
+.panel-body {
+    font-family: Cambria;
+    font-size: 16px;
+    text-align: left;
+}
+
+.tandctitle {
+    font-family: Calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* ----- content ----- */
+.subjectcontent {
+    padding-left: 40px;
+}
+
+.subjectinfo_content p {
+    font-size: 17px;
+}
+
+.subjectinfo_content h5 {
+    font-weight: bold;
+}
+
+.subjectinfo_content {
+    border-bottom: 1px solid #BABABA;
+    margin-right: 7%;
+}
+
+.booktitle {
+    font-family: Tw Cen MT Condensed;
+    font-weight: bold;
+    color: #2E4B7A;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* ------ footer ------ */
+#bottom {
+    position: relative;
+    background-color: #B5D1D8;
+    padding: 2px;
+    margin: 5px 0px 0px 0px;
+} 
+
+.copyright {
+    font-family: Calibri;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.smfooter {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.connecttitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.partnerstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.w-50 {
+    width: 50%!important; 
+}
+
+.subjectstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.quicklinkstitle {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+
+.bottom_content {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #3a4660;
+}
+
